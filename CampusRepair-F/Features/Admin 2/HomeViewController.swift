@@ -176,20 +176,10 @@ class HomeViewController: UIViewController {
     
     // MARK: - IBActions (Connect these in Storyboard)
     
-    @IBAction func assignTaskNew(_ sender: Any) {
-        performSegue(withIdentifier: "goToAssignTask", sender: self)
-        print("assign tapped")
-        let storyboard = UIStoryboard(name: "AdminMain", bundle: nil)
-        if let assignVC = storyboard.instantiateViewController(withIdentifier: "AssignTaskViewController") as? UIViewController {
-            present(assignVC, animated: true, completion: nil)
-
-            // Use assignVC
-        }
-
-
-
+    @IBAction func assignTaskTapped(_ sender: UIButton) {
+        print("Assign Task tapped")
+        // Will navigate to assign task screen
     }
-
     
     @IBAction func techniciansTapped(_ sender: UIButton) {
         print("Technicians tapped")

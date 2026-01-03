@@ -1,16 +1,22 @@
 //
-//  AssignTaskViewController.swift
-//  Admin
+//  adminPageViewController.swift
+//  CampusRepair-F
 //
+//  Created by BP-19-131-10 on 03/01/2026.
 //
 
 import UIKit
 
-class AssignTaskViewController: UIViewController {
+class adminPageViewController: UIViewController {
+    
 
-    @IBOutlet weak var assignTask: UIButton!
-    @IBAction func btnsStatus(_ sender: Any) {
-    }
+    @IBOutlet weak var weeklyPreformance: UIImageView!
+    @IBOutlet weak var urgent: UITextField!
+    @IBOutlet weak var inProgress: UITextField!
+    @IBOutlet weak var compolete: UITextField!
+    @IBOutlet weak var totalReq: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
