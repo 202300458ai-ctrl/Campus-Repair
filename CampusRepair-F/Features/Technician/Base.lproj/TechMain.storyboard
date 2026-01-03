@@ -67,16 +67,6 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SO5-vw-joW">
-                                        <rect key="frame" x="347" y="16" width="24" height="31"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="tintColor" systemColor="labelColor"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="bell" catalog="system"/>
-                                        <connections>
-                                            <action selector="notificationButtonTapped:" destination="bNf-gL-dSw" eventType="touchUpInside" id="WTt-IE-Ev4"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
@@ -318,7 +308,6 @@
                         <outlet property="highPriorityCountLabel" destination="U53-rN-k60" id="YmA-pZ-cdF"/>
                         <outlet property="highPriorityTitleLabel" destination="xL9-Ge-06c" id="kKt-no-yAP"/>
                         <outlet property="nameLabel" destination="jrX-iH-13H" id="sYo-ed-iD8"/>
-                        <outlet property="notificationButton" destination="SO5-vw-joW" id="dcd-Bg-s0s"/>
                         <outlet property="profileImageView" destination="btD-qA-HpP" id="DyA-2d-NBt"/>
                         <outlet property="resolutionTitleLabel" destination="JE8-8d-nWo" id="hKu-gX-reU"/>
                         <outlet property="statsCardView" destination="bYj-xP-5DT" id="ShQ-NX-zY0"/>
@@ -2894,7 +2883,6 @@
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
         <image name="arrow.triangle.2.circlepath" catalog="system" width="128" height="117"/>
-        <image name="bell" catalog="system" width="125" height="128"/>
         <image name="checklist" catalog="system" width="128" height="107"/>
         <image name="checkmark.circle.fill" catalog="system" width="128" height="123"/>
         <image name="commercial-building-computer-icons-partner-engineering-and-science-inc-office-building-symbols" width="600" height="600"/>
